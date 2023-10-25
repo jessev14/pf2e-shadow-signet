@@ -1,0 +1,27 @@
+{
+    "id": "pf2e-shadow-signet",
+    "title": "Shadow Signet",
+    "description": "",
+    "authors": [
+        {
+            "name": "enso",
+            "discord": "enso#0361"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "11"
+    },
+    "esmodules": [
+        "./scripts/pf2e-shadow-signet.js"
+    ],
+    "styles": [
+    ],
+    "languages": [],
+    "relationships": {
+    },
+    "flags": {},
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
