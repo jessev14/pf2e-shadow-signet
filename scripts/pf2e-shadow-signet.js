@@ -10,7 +10,7 @@ Hooks.once('init', () => {
 
 async function promptTargetStat(wrapped, event, attackNumber = 1, context = {}) {
     const statistic = this.spellcasting?.statistic;
-    const isSignet = this.actor.items.find(i => i.name === 'Shadow Signet')?.isEquipped; // TODO: more robust mechanism for checking if signet is applicable. isInvested
+    const isSignet = this.actor.items.find(i => i.name === 'Shadow Signet')?.isInvested;
     if (statistic && isSignet) {
         let slug;
         await Dialog.wait({
